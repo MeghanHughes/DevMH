@@ -1,0 +1,222 @@
+{
+  old: {
+    desc: "## **DEPENDENCIES:** ON TICKET 5.2.1 COMPLETION.
+    
+    ## Where the changes take place
+    
+    **Public Web > Proposal Application > Optional Extensions > Production Animal Technician/s** (see BELOW)
+    
+    ## Proposal types impacted: all
+    
+    ‌
+    
+    ![Snag\_2692e294.png](https://trello.com/1/cards/64bb6ec90c7159e2cbb9a7c2/attachments/64cc3cd1c76e68790e1571f6/download/Snag_2692e294.png)
+    
+    - New Applicants
+    - Renewing Members
+    - MTA
+    - Run-off
+    
+    ## Changes
+    
+    ### 5.3.1
+    
+    For RENEWAL proposal only, edit the bullet point “Please review and update the information provided and confirm the staff for this cover” to read: _Please review and update the information provided._
+    
+    ![Snag\_222898e1.png](https://trello.com/1/cards/64bb6ec90c7159e2cbb9a7c2/attachments/64dd972ca11736c5974e75a3/download/Snag_222898e1.png)
+    
+    ### 5.3.1.b
+    
+    For ALL proposal types include new bullet question: _The standard cover for this extension is $50,000, any one claim. You can request a higher limit if required._
+    
+    ![Snag\_2236ca2e.png](https://trello.com/1/cards/64bb6ec90c7159e2cbb9a7c2/attachments/64dd9acef01fce65ba61c669/download/Snag_2236ca2e.png)
+    
+    ‌
+    
+    ### 5.3.1.c
+    
+    Edit bullet to read: _“Please ensure the Practice and Practice **Production Animal Technician/s** are …. “_
+    
+    ‌
+    
+    ![Snag\_2239f130.png](https://trello.com/1/cards/64bb6ec90c7159e2cbb9a7c2/attachments/64dd9b9cd9eae9aa1ceae8d1/download/Snag_2239f130.png)
+    
+    ‌
+    
+    ‌
+    
+    ### 5.3.1.d
+    
+    Delete sentence: ~~The standard current cover for Technician…~~
+    
+    ![Snag\_223e9f30.png](https://trello.com/1/cards/64bb6ec90c7159e2cbb9a7c2/attachments/64dd9cd0198a8f0eea5b5001/download/Snag_223e9f30.png)
+    
+    ‌
+    
+    ### 5.3.2
+    
+    For ALL proposal types include new required [Yes/NO] question: _Do you/the Practice want cover for Production Animal Technician/s?_
+    
+    ‌
+    
+    ![Snag\_224ce3a7.png](https://trello.com/1/cards/64bb6ec90c7159e2cbb9a7c2/attachments/64dda076b104cbbebf1859f7/download/Snag_224ce3a7.png)
+    
+    ### 5.3.2.a
+    
+    Add help tip to question. Text to read: _Refer to Policy Information above for more information about this cover._
+    
+    ![Snag\_226c4047.png](https://trello.com/1/cards/64bb6ec90c7159e2cbb9a7c2/attachments/64dda87e0b0888f40ef5ab7f/download/Snag_226c4047.png)
+    
+    #### Behaviour
+    
+    If [YES], render the follow-on question to read: _If you require a higher limit than $50,000, any one claim, please specify what limit you require._
+    
+    ![Snag\_22559fad.png](https://trello.com/1/cards/64bb6ec90c7159e2cbb9a7c2/attachments/64dda2b5602cabb55a9a949f/download/Snag_22559fad.png)
+    
+    ### 5.3.2.b
+    
+    NOTE:
+    
+    Currently there is a question “_Please specify what higher level of cover is required”_ with a write-in text box with default text “e.g. $100,000”).
+    
+    In this change the question is removed, and the wrote-in box only appears if “Other” is selected.
+    
+    - If the selection of $100,000 or $200,000 or input of the 'Other' field, [YES] the answer will populate the question in the same place in the Proposal PDF as it currently does.
+    
+    ‌
+    
+    ### EXAMPLE UI to PDFS
+    
+    ‌
+    
+    1. **If [NO]** is selected in UI shows….
+    
+    ![image.png](https://trello.com/1/cards/64bb6ec90c7159e2cbb9a7c2/attachments/64e28dcd49cf766d08a59e38/download/image.png)
+    
+    **PROPOSAL PDF>Optional Extensions>Production Animal Technician/s** NO CHANGE to how this currently shows:
+    
+    ![Snag\_358eeb2d.png](https://trello.com/1/cards/64bb6ec90c7159e2cbb9a7c2/attachments/64e28e8d7b1426c3a39e3a49/download/Snag_358eeb2d.png)
+    
+    ‌
+    
+    ### 2. TRIGGER PDF:
+    
+    If [YES] to ‘Require cover’ and [No] to 'Require higher Limit: No change
+    
+    ‌
+    
+    ![Snag\_35cca1e2.png](https://trello.com/1/cards/64bb6ec90c7159e2cbb9a7c2/attachments/64e29e5a6336f8fbd55b5ba3/download/Snag_35cca1e2.png)
+    
+    ‌
+    
+    ‌
+    
+    ### 5.3.2.c
+    
+    1. **If YES** is selected in the options to choose higher cover show:
+    
+    - Delete question: _~~Please specify what higher level of …~~_
+    - Delete help tip
+    
+    ‌
+    
+    ![Snag\_225a1140.png](https://trello.com/1/cards/64bb6ec90c7159e2cbb9a7c2/attachments/64dda3d674161fafa291dc6f/download/Snag_225a1140.png)
+    
+    2\. Add a multi-select checkbox list with options:
+    
+    - _$100,000_
+    - _$200,000_
+    - _Other_
+    
+    3\. Render the write-in text box with _“Enter other amount”_ as default text below the checklist and delete: ~~e.g. $100,000~~
+    
+    ‌
+    
+    ‌
+    
+    ![Snag\_3591576a.png](https://trello.com/1/cards/64bb6ec90c7159e2cbb9a7c2/attachments/64e28f2d5ae6ac27e8055da0/download/Snag_3591576a.png)
+    
+    ‌
+    
+    ‌
+    
+    ‌
+    
+    **4. Proposal Form PDF>Optional Extensions>Production Animal Technician/s:** The “Selected” and “Other” amount show in the PDF. There is no change required to the question: _Please specify what higher limit…_
+    
+    ‌
+    
+    **4.1** when answer is YES>$100k or $200K the selected value shows.
+    
+    ![Snag\_35969e4f.png](https://trello.com/1/cards/64bb6ec90c7159e2cbb9a7c2/attachments/64e2908647dd8de3e91c6e9c/download/Snag_35969e4f.png)
+    
+    ‌
+    
+    4\.2 If ‘Other’ amount is selected, the input amount will show:
+    
+    ‌
+    
+    ![Snag\_35aaaa73.png](https://trello.com/1/cards/64bb6ec90c7159e2cbb9a7c2/attachments/64e295a8663c677de17b220b/download/Snag_35aaaa73.png)
+    
+    ‌
+    
+    ![Snag\_35ab26d6.png](https://trello.com/1/cards/64bb6ec90c7159e2cbb9a7c2/attachments/64e295c8d380cdbd7eeb3026/download/Snag_35ab26d6.png)
+    
+    ###
+    
+    ### **5. Trigger PDF:**
+    
+    If cover **is required**, but no higher limit is selected, Trigger document requires no changes.
+    
+    **Note:** blurred copy is to cover content that is being deleted in another ticket.
+    
+    ###
+    
+    ![Snag\_36cf7bd0.png](https://trello.com/1/cards/64bb6ec90c7159e2cbb9a7c2/attachments/64e2e09f09362c7bc86028f0/download/Snag_36cf7bd0.png)
+    
+    ### 5.1
+    
+    If cover is required, with a higher limit it shows as follows:
+    
+    ![Snag\_36cf216b.png](https://trello.com/1/cards/64bb6ec90c7159e2cbb9a7c2/attachments/64e2e08718a5ebce4e074b82/download/Snag_36cf216b.png)
+    
+    ‌
+    
+    ‌
+    
+    ### 6.0 PDFs
+    
+    - Insurance Quote
+    - Insurance Schedule
+    - Certificate of Insurance
+    
+    Selections from either **$100k**, **$200k** or input of **Other** will show in yellow highlighted fields under Optional Extensions Included>Section 2.4 Production Animal Technician/s
+    
+    The _Limit of Liability in the Annual Aggregate_ and _Defence Costs Limit in the Annual Aggregate_ are calculated at twice the Limit of Liability selections [per existing rules for other fields in these colums].
+    
+    ![Snag\_36d5723e.png](https://trello.com/1/cards/64bb6ec90c7159e2cbb9a7c2/attachments/64e2e2259c9656371ccd1aca/download/Snag_36d5723e.png)
+    
+    ‌
+    
+    ‌
+    
+    ‌
+    
+    ### **7. Optional Extensions>Production Animal Technicians: UI only for the following templates only:**
+    
+    - Renew
+    - MTA
+    
+    Move _Your Current cover is: $xxxxx_
+    
+    **From here:**
+    
+    ‌
+    
+    ![Snag\_2274cd5d.png](https://trello.com/1/cards/64bb6ec90c7159e2cbb9a7c2/attachments/64ddaaae36705793a2e72531/download/Snag_2274cd5d.png)
+    
+    **To here:**
+    
+    ![Snag\_2275f6e9.png](https://trello.com/1/cards/64bb6ec90c7159e2cbb9a7c2/attachments/64ddaafab33ca3777c3b2f3b/download/Snag_2275f6e9.png)"
+  }
+}
